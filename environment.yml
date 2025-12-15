@@ -10,6 +10,8 @@ dependencies:
   - asttokens=3.0.1
   - attrs=25.4.0
   - backports.zstd=1.2.0
+  - bleach=6.3.0
+  - bokeh=3.8.1
   - brotli=1.2.0
   - brotli-bin=1.2.0
   - brotli-python=1.2.0
@@ -20,6 +22,7 @@ dependencies:
   - charset-normalizer=3.4.4
   - cloudpickle=3.1.2
   - colorama=0.4.6
+  - colorcet=3.1.0
   - comm=0.2.3
   - contourpy=1.3.3
   - cpython=3.12.12
@@ -45,6 +48,7 @@ dependencies:
   - graphite2=1.3.14
   - h2=4.3.0
   - harfbuzz=12.2.0
+  - holoviews=1.22.1
   - hpack=4.1.0
   - hyperframe=6.1.0
   - icu=75.1
@@ -54,11 +58,13 @@ dependencies:
   - ipykernel=6.31.0
   - ipython=9.8.0
   - ipython_pygments_lexers=1.1.1
+  - ipywidgets=8.1.8
   - jedi=0.19.2
   - jinja2=3.1.6
   - joblib=1.5.2
   - jupyter_client=8.6.3
   - jupyter_core=5.9.1
+  - jupyterlab_widgets=3.0.16
   - kagglehub=0.3.13
   - keyutils=1.6.3
   - kiwisolver=1.4.9
@@ -114,19 +120,26 @@ dependencies:
   - libwebp-base=1.6.0
   - libxcb=1.17.0
   - libxcrypt=4.4.36
+  - libxgboost=3.1.2
   - libxkbcommon=1.13.1
   - libxml2=2.15.1
   - libxml2-16=2.15.1
   - libxslt=1.1.43
   - libzlib=1.3.1
+  - linkify-it-py=2.0.3
   - llvmlite=0.45.1
+  - markdown=3.10
+  - markdown-it-py=4.0.0
   - markupsafe=3.0.3
   - matplotlib=3.10.0
   - matplotlib-base=3.10.0
   - matplotlib-inline=0.2.1
+  - mdit-py-plugins=0.5.0
+  - mdurl=0.1.2
   - minify-html=0.18.1
   - multimethod=1.12
   - munkres=1.1.4
+  - narwhals=2.13.0
   - ncurses=6.5
   - nest-asyncio=1.6.0
   - networkx=3.6
@@ -137,13 +150,14 @@ dependencies:
   - openssl=3.6.0
   - packaging=25.0
   - pandas=2.3.3
+  - panel=1.8.4
+  - param=2.3.1
   - parso=0.8.5
   - patsy=1.0.2
   - pcre2=10.46
   - pexpect=4.9.0
   - phik=0.12.5
   - pillow=12.0.0
-  - pip=25.3
   - pixman=0.46.4
   - platformdirs=4.5.1
   - prompt-toolkit=3.0.52
@@ -152,6 +166,7 @@ dependencies:
   - ptyprocess=0.7.0
   - pure_eval=0.2.3
   - puremagic=1.30
+  - py-xgboost=3.1.2
   - pydantic=2.12.5
   - pydantic-core=2.41.5
   - pygments=2.19.2
@@ -164,6 +179,7 @@ dependencies:
   - python-tzdata=2025.2
   - python_abi=3.12
   - pytz=2025.2
+  - pyviz_comms=3.0.6
   - pywavelets=1.9.0
   - pyxdg=0.28
   - pyyaml=6.0.3
@@ -191,12 +207,15 @@ dependencies:
   - typing-inspection=0.4.2
   - typing_extensions=4.15.0
   - tzdata=2025b
+  - uc-micro-py=1.0.3
   - unicodedata2=17.0.0
   - urllib3=2.6.0
   - visions=0.8.1
   - wayland=1.24.0
   - wcwidth=0.2.14
+  - webencodings=0.5.1
   - wheel=0.45.1
+  - widgetsnbextension=4.0.15
   - wordcloud=1.9.4
   - wurlitzer=3.1.1
   - xcb-util=0.4.1
@@ -221,11 +240,13 @@ dependencies:
   - xorg-libxrender=0.9.12
   - xorg-libxtst=1.2.5
   - xorg-libxxf86vm=1.1.6
+  - xyzservices=2025.11.0
   - yaml=0.2.5
   - ydata-profiling=4.18.0
   - zeromq=4.3.5
   - zipp=3.23.0
   - zlib-ng=2.3.2
   - zstd=1.5.7
-
-prefix: "/home/eddie/miniforge3/envs/student_perf_ml-env"
+  - pip:
+      - pip==24.3.1
+prefix: /home/eddie/miniforge3/envs/Student_Performance_ML
